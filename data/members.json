@@ -1,0 +1,42 @@
+{
+  "section": "A",
+  "group": 1,
+  "project_name": "secA-1-project",
+  "members": [
+    {
+      "name": "สมาชิก คนที่หนึ่ง",
+      "student_id": "6X00000001",
+      "image": "student-a.jpeg",
+      "role": "Project Lead / Home & Routing",
+      "responsibilities": ["วางโครงสร้างโปรเจกต์ (main.py)", "หน้า Home และการนำทาง", "รวมโค้ดและดูแล Git"]
+    },
+    {
+      "name": "สมาชิก คนที่สอง",
+      "student_id": "6X00000002",
+      "image": "student-b.jpeg",
+      "role": "Statistics Developer",
+      "responsibilities": ["services/cal_statistics.py", "services/cal_mode.py", "หน้า Statistics"]
+    },
+    {
+      "name": "สมาชิก คนที่สาม",
+      "student_id": "6X00000003",
+      "image": "student-c.jpeg",
+      "role": "Bayes Developer",
+      "responsibilities": ["services/bayes_service.py", "หน้า Bayes' Theorem", "กราฟ Sensitivity"]
+    },
+    {
+      "name": "สมาชิก คนที่สี่",
+      "student_id": "6X00000004",
+      "image": "student-d.jpeg",
+      "role": "Markov Chain Developer",
+      "responsibilities": ["services/text_prediction.py", "หน้า Markov", "หน้า Display Data"]
+    },
+    {
+      "name": "สมาชิก คนที่ห้า",
+      "student_id": "6X00000005",
+      "image": "student-e.jpeg",
+      "role": "Custom App Developer",
+      "responsibilities": ["services/custom_service.py", "หน้า Custom App (ML Math Lab)", "หน้า Members"]
+    }
+  ]
+}

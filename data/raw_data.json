@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "project": "secA-1-project",
+    "description": "ข้อมูลดิบสำหรับหน้า Markov Chain, Statistics และ Display Data",
+    "version": "1.0"
+  },
+  "text_datasets": [
+    {
+      "id": "probability",
+      "title": "Probability Basics",
+      "language": "en",
+      "text": "probability is the study of chance and probability helps us measure how likely an event is to happen. an event with probability zero never happens and an event with probability one always happens. the probability of a fair coin landing on heads is one half and the probability of a fair die showing a six is one sixth. when two events are independent the probability of both events is the product of their probabilities. conditional probability tells us how the probability of an event changes when we know another event has happened. bayes theorem uses conditional probability to update our belief when we see new evidence. a good student uses probability to make better decisions and a good scientist uses probability to test new ideas."
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics Basics",
+      "language": "en",
+      "text": "statistics is the science of learning from data and statistics helps us describe data with numbers. the mean is the average of the data and the median is the middle value of the data. the mode is the value that appears most often in the data. the variance measures how far the data are spread from the mean and the standard deviation is the square root of the variance. a small standard deviation means the data are close to the mean and a large standard deviation means the data are far from the mean. a good analyst uses statistics to find patterns in data and a good manager uses statistics to make better decisions."
+    },
+    {
+      "id": "machine_learning",
+      "title": "Machine Learning Basics",
+      "language": "en",
+      "text": "machine learning is a way for a computer to learn patterns from data and machine learning needs math to work well. a model learns by reducing its error and the model reduces its error by following the gradient of the loss function. the sigmoid function turns any number into a probability and the softmax function turns many numbers into many probabilities. a markov chain predicts the next word by looking at the current word and a markov chain only needs the current state to predict the next state. linear algebra gives us vectors and matrices and calculus gives us derivatives and integrals. a good engineer uses math to build a model and a good model uses data to learn patterns."
+    }
+  ],
+  "number_sets": [
+    {"id": "example", "title": "ตัวอย่างจากโจทย์", "values": [-100, 0, 10, 20, 30, 100]},
+    {"id": "scores", "title": "คะแนนสอบ 20 คน", "values": [55, 62, 67, 70, 70, 72, 75, 75, 75, 78, 80, 82, 85, 85, 88, 90, 92, 95, 98, 100]},
+    {"id": "multimodal", "title": "ข้อมูลหลายฐานนิยม", "values": [1, 2, 2, 3, 3, 4, 5, 6, 6, 7]},
+    {"id": "outlier", "title": "ข้อมูลที่มี Outlier", "values": [10, 12, 11, 13, 12, 14, 11, 200]}
+  ]
+}
